@@ -134,7 +134,8 @@ var slow = {
 - appending to an object: we can use . syntax or we can [] syntax, _kinda like arrays, but not exactly_
 
 ```js
-var obj = {};
+var obj = {}; // assigning the datatype of object to obj
+var obj2;
 
 obj.property1 = 'value'; // obj = { property1: 'value' }
 obj['property2'] = 7; // obj = { property1: 'value', property2: 7 }
@@ -156,7 +157,7 @@ obj[str] = 'things'; // obj = { str: 'things', hello: 'things'}; YAY!
 var obj = Object.create({ a: 1, b: 2 }); // this is for savages
 ```
 
-## arrays
+## arrays (build)
 
 ## strings
 
@@ -166,8 +167,8 @@ var obj = Object.create({ a: 1, b: 2 }); // this is for savages
 
 ## scope
 
-## conditional stmts
+## conditional stmts (build)
 
 ## functions
 
-## loops
+## loops (build)
